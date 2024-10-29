@@ -14,6 +14,11 @@
 		D88F5FE32CC4EDBF0043B505 /* challeng_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88F5FE22CC4EDBF0043B505 /* challeng_2Tests.swift */; };
 		D88F5FED2CC4EDBF0043B505 /* challeng_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88F5FEC2CC4EDBF0043B505 /* challeng_2UITests.swift */; };
 		D88F5FEF2CC4EDBF0043B505 /* challeng_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88F5FEE2CC4EDBF0043B505 /* challeng_2UITestsLaunchTests.swift */; };
+		D88F5FFC2CC4F40F0043B505 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88F5FFB2CC4F40F0043B505 /* ProgressView.swift */; };
+		D88F5FFE2CC4F80F0043B505 /* LearningGoalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88F5FFD2CC4F80F0043B505 /* LearningGoalViewModel.swift */; };
+		D88F60002CCA3C680043B505 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88F5FFF2CCA3C680043B505 /* File.swift */; };
+		D88F60022CCF65970043B505 /* LearningGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88F60012CCF65970043B505 /* LearningGoal.swift */; };
+		D88F60042CCF65E60043B505 /* LearningGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88F60032CCF65E60043B505 /* LearningGoalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		D88F5FE82CC4EDBF0043B505 /* challeng 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "challeng 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88F5FEC2CC4EDBF0043B505 /* challeng_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challeng_2UITests.swift; sourceTree = "<group>"; };
 		D88F5FEE2CC4EDBF0043B505 /* challeng_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challeng_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D88F5FFB2CC4F40F0043B505 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		D88F5FFD2CC4F80F0043B505 /* LearningGoalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningGoalViewModel.swift; sourceTree = "<group>"; };
+		D88F5FFF2CCA3C680043B505 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		D88F60012CCF65970043B505 /* LearningGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningGoal.swift; sourceTree = "<group>"; };
+		D88F60032CCF65E60043B505 /* LearningGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningGoalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,7 @@
 		D88F5FC52CC4EDBE0043B505 = {
 			isa = PBXGroup;
 			children = (
+				D88F5FFF2CCA3C680043B505 /* File.swift */,
 				D88F5FD02CC4EDBE0043B505 /* challeng 2 */,
 				D88F5FE12CC4EDBF0043B505 /* challeng 2Tests */,
 				D88F5FEB2CC4EDBF0043B505 /* challeng 2UITests */,
@@ -96,6 +107,10 @@
 			children = (
 				D88F5FD12CC4EDBE0043B505 /* challeng_2App.swift */,
 				D88F5FD32CC4EDBE0043B505 /* ContentView.swift */,
+				D88F5FFD2CC4F80F0043B505 /* LearningGoalViewModel.swift */,
+				D88F60012CCF65970043B505 /* LearningGoal.swift */,
+				D88F60032CCF65E60043B505 /* LearningGoalView.swift */,
+				D88F5FFB2CC4F40F0043B505 /* ProgressView.swift */,
 				D88F5FD52CC4EDBF0043B505 /* Assets.xcassets */,
 				D88F5FD72CC4EDBF0043B505 /* Preview Content */,
 			);
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D88F60022CCF65970043B505 /* LearningGoal.swift in Sources */,
+				D88F60002CCA3C680043B505 /* File.swift in Sources */,
 				D88F5FD42CC4EDBE0043B505 /* ContentView.swift in Sources */,
+				D88F60042CCF65E60043B505 /* LearningGoalView.swift in Sources */,
 				D88F5FD22CC4EDBE0043B505 /* challeng_2App.swift in Sources */,
+				D88F5FFC2CC4F40F0043B505 /* ProgressView.swift in Sources */,
+				D88F5FFE2CC4F80F0043B505 /* LearningGoalViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
